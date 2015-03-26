@@ -18,11 +18,10 @@ Quokka project
 
 Quokka is a flexible content management platform powered by Python, Flask and MongoDB.
 
-
 Quick start
 ============
 
-> You need a MongoDB instance running locally or remotely to connect. 
+> You need a MongoDB instance running locally or remotely to connect.
 > Quokka runs on Python 2.7
 
 1. Get Quokka
@@ -46,7 +45,7 @@ DEBUG = True
 3. Populate with sample data (optional)
 
 ```bash
-$ python manage.py populate 
+$ python manage.py populate
 
 ```
 
@@ -63,7 +62,7 @@ P4$$W0Rd
 ```bash
 $ python manage.py runserver
 ```
-6. Access on http://localhost:5000 
+6. Access on http://localhost:5000
 7. Admin on http://localhost:5000/admin
 
 or by making your server reachable on other networks
@@ -71,7 +70,7 @@ or by making your server reachable on other networks
 ```bash
 $ python manage.py run0
 ```
-6. Access on http://0.0.0.0:8000  
+6. Access on http://0.0.0.0:8000
 7. Admin on http://0.0.0.0:8000/admin
 
 
@@ -110,6 +109,14 @@ Is it any good?
 &nbsp;
 [![pythonhub](http://secure.gravatar.com/avatar/fa9ccd40c6da8a0a934a383ffeb988e6?s=78)](http://github.com/pythonhub)
 
+Heroku
+======
+
+If you use Heroku, you can use the deploy to Heroku button below.
+
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
+
 ## FAQ
 
 ### Why another CMS?
@@ -118,7 +125,7 @@ There is a large number of great CMS's in Python ecosystem (Plone, Opps, Mezanni
 
 ### Why Flask?
 
-Because Flask is Pythonic! In my research + experience it is the best framework to develop applications which rely on "pluggable features" thanks to its Blueprints and Extension patterns, also Flask plays well with any DB/ORM of choice. (see next question) 
+Because Flask is Pythonic! In my research + experience it is the best framework to develop applications which rely on "pluggable features" thanks to its Blueprints and Extension patterns, also Flask plays well with any DB/ORM of choice. (see next question)
 
 ### Why MongoDB?
 

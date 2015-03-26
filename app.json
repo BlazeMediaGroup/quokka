@@ -1,0 +1,12 @@
+{
+  "name": "Quokka Project",
+  "description": "Flask powered CMS on top of mongoengine/MongoDB",
+  "repository": "https://github.com/quokkaproject/quokka",
+  "website": "http://quokkaproject.org/",
+  "logo": "https://github.com/quokkaproject/quokka/raw/master/docs/logo.png",
+  "keywords": ["mongodb", "flask", "cms"],
+  "addons": ["mongolab"],
+  "scripts": {
+    "postdeploy": "python manage.py populate"
+  }
+}
